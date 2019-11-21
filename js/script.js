@@ -1,5 +1,7 @@
 
-
+var turns = 0;
+var word = "x";
+var 
 
 
 
