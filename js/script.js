@@ -1,10 +1,24 @@
 
 var turns = 0;
 var word = "x";
-var 
 
-
-
+function performLogic(button,tile) {
+    $(button).hide();
+    $(tile).text(word);
+    turns++;
+    //checkwinner();
+    if(turns == 9) {
+    //reset the game tie
+    }
+    else {
+        if(word == "o") {
+          word = "x";  
+        } 
+        else{
+            word = "o";
+        }
+    }
+}
 
 
 $("#button1").click(function() {
